@@ -1,0 +1,11 @@
+{
+  "appId": "com.org.asd",
+  "appName": "asd",
+  "webDir": "./build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "server": {}
+}
