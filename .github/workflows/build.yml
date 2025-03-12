@@ -232,8 +232,8 @@ jobs:
         run: cd front-end && npm i --force
       - name: Build the UI
         run: cd cmd/asd-server && make ui2
-      - name: clone latest asd
-        run: git clone https://github.com/torabian/asd/ --depth=1
+      - name: clone latest Fireback
+        run: git clone https://github.com/torabian/fireback --depth=1
       - name: Build and package deb files
         run: make everything
       - uses: actions/upload-artifact@master
